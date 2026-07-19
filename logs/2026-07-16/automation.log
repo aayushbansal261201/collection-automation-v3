@@ -1,0 +1,510 @@
+2026-07-16 15:23:00,942 | INFO | ======================================================================
+2026-07-16 15:23:00,942 | INFO | COLLECTION AUTOMATION STARTED
+2026-07-16 15:23:00,942 | INFO | ======================================================================
+2026-07-16 15:23:00,942 | INFO | STEP 1 : Validate Users
+2026-07-16 15:23:00,973 | INFO | User validation successful. Total Users: 3
+2026-07-16 15:23:00,973 | INFO | STEP 2 : Download Reports
+2026-07-16 15:23:41,623 | INFO | STEP 3 : Filter Reports
+2026-07-16 15:24:45,257 | INFO | STEP 4 : Send Emails
+2026-07-16 15:25:11,641 | INFO | ======================================================================
+2026-07-16 15:25:11,659 | INFO | Execution Time : 130.72 seconds
+2026-07-16 15:25:11,659 | INFO | ======================================================================
+2026-07-16 18:29:36,407 | INFO | ============================================================
+2026-07-16 18:29:36,407 | INFO | LOADING REPORTS INTO MEMORY
+2026-07-16 18:29:36,407 | INFO | ============================================================
+2026-07-16 18:29:37,585 | INFO | LAN Overview : 3672 rows
+2026-07-16 18:29:37,755 | INFO | Agent by LAN : 1039 rows
+2026-07-16 18:29:38,308 | INFO | Daily Activity : 2096 rows
+2026-07-16 18:29:38,623 | INFO | Agent Daily : 1984 rows
+2026-07-16 18:29:47,439 | INFO | Master Recon : 22108 rows
+2026-07-16 18:29:51,754 | INFO | Rolling State : 26359 rows
+2026-07-16 18:29:51,755 | INFO | Loaded 6 reports.
+2026-07-16 20:03:35,911 | INFO | ================================================================================
+2026-07-16 20:03:35,918 | INFO | COLLECTION AUTOMATION V3 STARTED
+2026-07-16 20:03:35,918 | INFO | ================================================================================
+2026-07-16 20:03:35,918 | INFO | STEP 1/5 : Validating Users
+2026-07-16 20:03:36,169 | INFO | User validation successful. Total Users: 3
+2026-07-16 20:03:36,169 | INFO | User validation completed successfully.
+2026-07-16 20:03:36,169 | INFO | STEP 2/5 : Downloading Reports
+2026-07-16 20:03:44,802 | INFO | Cleaning old temporary files
+2026-07-16 20:03:44,802 | INFO | ============================================================
+2026-07-16 20:03:44,802 | INFO | CLEANING TEMP DIRECTORY
+2026-07-16 20:03:44,802 | INFO | ============================================================
+2026-07-16 20:03:44,802 | INFO | Deleted 0 old folders/files.
+2026-07-16 20:03:44,802 | INFO | ============================================================
+2026-07-16 20:03:44,803 | INFO | Reports downloaded successfully.
+2026-07-16 20:03:44,803 | INFO | STEP 3/5 : Loading Reports Into Memory
+2026-07-16 20:03:44,803 | INFO | ============================================================
+2026-07-16 20:03:44,803 | INFO | LOADING REPORTS INTO MEMORY
+2026-07-16 20:03:44,803 | INFO | ============================================================
+2026-07-16 20:03:44,849 | INFO | Payment Reconciliation : 109 rows
+2026-07-16 20:03:44,883 | INFO | Exception Report : 112 rows
+2026-07-16 20:03:45,476 | INFO | Monthly LAN Activity : 3674 rows
+2026-07-16 20:03:45,806 | INFO | Daily Activity : 2129 rows
+2026-07-16 20:03:45,977 | INFO | Receipt : 1159 rows
+2026-07-16 20:03:45,977 | INFO | Loaded 5 reports.
+2026-07-16 20:03:45,977 | INFO | 5 reports loaded into memory.
+2026-07-16 20:03:45,977 | INFO | STEP 4/5 : Generating User Reports
+2026-07-16 20:03:45,977 | INFO | ======================================================================
+2026-07-16 20:03:45,977 | INFO | GENERATING USER REPORTS
+2026-07-16 20:03:45,977 | INFO | ======================================================================
+2026-07-16 20:03:45,977 | INFO | Total Users : 3
+2026-07-16 20:03:45,994 | INFO | [1/3] Processing : Aayush Bansal
+2026-07-16 20:03:46,166 | INFO | Aayush Bansal -> Payment Reconciliation (109 rows)
+2026-07-16 20:03:46,214 | INFO | Aayush Bansal -> Exception Report (112 rows)
+2026-07-16 20:03:46,886 | INFO | Aayush Bansal -> Monthly LAN Activity (3673 rows)
+2026-07-16 20:03:47,280 | INFO | Aayush Bansal -> Daily Activity (2128 rows)
+2026-07-16 20:03:47,464 | INFO | Aayush Bansal -> Receipt (1159 rows)
+2026-07-16 20:03:47,469 | INFO | [2/3] Processing : Purav Shah
+2026-07-16 20:03:47,498 | INFO | Purav Shah -> Payment Reconciliation (8 rows)
+2026-07-16 20:03:47,533 | INFO | Purav Shah -> Exception Report (10 rows)
+2026-07-16 20:03:47,613 | INFO | Purav Shah -> Monthly LAN Activity (330 rows)
+2026-07-16 20:03:47,700 | INFO | Purav Shah -> Daily Activity (291 rows)
+2026-07-16 20:03:47,739 | INFO | Purav Shah -> Receipt (74 rows)
+2026-07-16 20:03:47,741 | INFO | [3/3] Processing : Amit Korgaonkar
+2026-07-16 20:03:47,765 | INFO | Amit Korgaonkar -> Payment Reconciliation (36 rows)
+2026-07-16 20:03:47,812 | INFO | Amit Korgaonkar -> Exception Report (38 rows)
+2026-07-16 20:03:48,132 | INFO | Amit Korgaonkar -> Monthly LAN Activity (1278 rows)
+2026-07-16 20:03:48,371 | INFO | Amit Korgaonkar -> Daily Activity (815 rows)
+2026-07-16 20:03:48,475 | INFO | Amit Korgaonkar -> Receipt (417 rows)
+2026-07-16 20:03:48,475 | INFO | ======================================================================
+2026-07-16 20:03:48,475 | INFO | REPORT GENERATION COMPLETED
+2026-07-16 20:03:48,475 | INFO | Users Processed : 3
+2026-07-16 20:03:48,475 | INFO | Reports Created : 15
+2026-07-16 20:03:48,475 | INFO | ======================================================================
+2026-07-16 20:03:48,475 | INFO | Report generation completed successfully.
+2026-07-16 20:03:48,476 | INFO | STEP 5/5 : Sending Emails
+2026-07-16 20:03:48,476 | INFO | ======================================================================
+2026-07-16 20:03:48,476 | INFO | EMAIL SERVICE STARTED
+2026-07-16 20:03:48,476 | INFO | ======================================================================
+2026-07-16 20:03:51,910 | INFO | SMTP Login Successful
+2026-07-16 20:03:51,910 | INFO | Total Users : 3
+2026-07-16 20:03:51,910 | INFO | ------------------------------------------------------------
+2026-07-16 20:03:51,910 | INFO | Processing : Aayush Bansal
+2026-07-16 20:03:51,911 | INFO | Aayush Bansal : 5 Reports | 0.6 MB
+2026-07-16 20:03:54,746 | INFO | Aayush Bansal : Email Sent
+2026-07-16 20:03:54,746 | INFO | Aayush Bansal : Temporary Folder Deleted
+2026-07-16 20:03:54,759 | INFO | ------------------------------------------------------------
+2026-07-16 20:03:54,759 | INFO | Processing : Purav Shah
+2026-07-16 20:03:54,759 | INFO | Purav Shah : 5 Reports | 0.09 MB
+2026-07-16 20:03:55,512 | INFO | Purav Shah : Email Sent
+2026-07-16 20:03:55,515 | INFO | Purav Shah : Temporary Folder Deleted
+2026-07-16 20:03:55,515 | INFO | ------------------------------------------------------------
+2026-07-16 20:03:55,515 | INFO | Processing : Amit Korgaonkar
+2026-07-16 20:03:55,515 | INFO | Amit Korgaonkar : 5 Reports | 0.24 MB
+2026-07-16 20:03:56,807 | INFO | Amit Korgaonkar : Email Sent
+2026-07-16 20:03:56,807 | INFO | Amit Korgaonkar : Temporary Folder Deleted
+2026-07-16 20:03:56,824 | INFO | SMTP Connection Closed
+2026-07-16 20:03:56,852 | INFO | Summary Saved : logs\2026-07-16\email_summary.xlsx
+2026-07-16 20:03:56,852 | INFO | ============================================================
+2026-07-16 20:03:56,852 | INFO | Total Users : 3
+2026-07-16 20:03:56,852 | INFO | Success    : 3
+2026-07-16 20:03:56,852 | INFO | Failed     : 0
+2026-07-16 20:03:56,853 | INFO | Skipped    : 0
+2026-07-16 20:03:56,853 | INFO | ============================================================
+2026-07-16 20:03:56,853 | INFO | Summary File : logs\2026-07-16\email_summary.xlsx
+2026-07-16 20:03:56,853 | INFO | ======================================================================
+2026-07-16 20:03:56,853 | INFO | EMAIL SERVICE COMPLETED
+2026-07-16 20:03:56,853 | INFO | Emails Sent     : 3
+2026-07-16 20:03:56,853 | INFO | Emails Failed   : 0
+2026-07-16 20:03:56,853 | INFO | Users Skipped   : 0
+2026-07-16 20:03:56,854 | INFO | ======================================================================
+2026-07-16 20:03:56,854 | INFO | All emails processed.
+2026-07-16 20:03:56,855 | INFO | COLLECTION AUTOMATION COMPLETED SUCCESSFULLY
+2026-07-16 20:03:56,855 | INFO | ================================================================================
+2026-07-16 20:03:56,855 | INFO | Execution Time : 20.94 Seconds
+2026-07-16 20:03:56,855 | INFO | COLLECTION AUTOMATION FINISHED
+2026-07-16 20:03:56,855 | INFO | ================================================================================
+2026-07-16 20:16:32,082 | INFO | ================================================================================
+2026-07-16 20:16:32,082 | INFO | COLLECTION AUTOMATION V3 STARTED
+2026-07-16 20:16:32,082 | INFO | ================================================================================
+2026-07-16 20:16:32,082 | INFO | STEP 1/5 : Validating Users
+2026-07-16 20:16:32,378 | INFO | User validation successful. Total Users: 30
+2026-07-16 20:16:32,378 | INFO | User validation completed successfully.
+2026-07-16 20:16:32,378 | INFO | STEP 2/5 : Downloading Reports
+2026-07-16 20:16:40,574 | INFO | Cleaning old temporary files
+2026-07-16 20:16:40,574 | INFO | ============================================================
+2026-07-16 20:16:40,574 | INFO | CLEANING TEMP DIRECTORY
+2026-07-16 20:16:40,574 | INFO | ============================================================
+2026-07-16 20:16:40,574 | INFO | Deleted 0 old folders/files.
+2026-07-16 20:16:40,574 | INFO | ============================================================
+2026-07-16 20:16:40,574 | INFO | Reports downloaded successfully.
+2026-07-16 20:16:40,574 | INFO | STEP 3/5 : Loading Reports Into Memory
+2026-07-16 20:16:40,574 | INFO | ============================================================
+2026-07-16 20:16:40,574 | INFO | LOADING REPORTS INTO MEMORY
+2026-07-16 20:16:40,574 | INFO | ============================================================
+2026-07-16 20:16:40,597 | INFO | Payment Reconciliation : 109 rows
+2026-07-16 20:16:40,630 | INFO | Exception Report : 112 rows
+2026-07-16 20:16:41,206 | INFO | Monthly LAN Activity : 3674 rows
+2026-07-16 20:16:41,554 | INFO | Daily Activity : 2130 rows
+2026-07-16 20:16:41,747 | INFO | Receipt : 1159 rows
+2026-07-16 20:16:41,747 | INFO | Loaded 5 reports.
+2026-07-16 20:16:41,747 | INFO | 5 reports loaded into memory.
+2026-07-16 20:16:41,748 | INFO | STEP 4/5 : Generating User Reports
+2026-07-16 20:16:41,748 | INFO | ======================================================================
+2026-07-16 20:16:41,748 | INFO | GENERATING USER REPORTS
+2026-07-16 20:16:41,748 | INFO | ======================================================================
+2026-07-16 20:16:41,756 | INFO | Total Users : 30
+2026-07-16 20:16:41,756 | INFO | [1/30] Processing : Babulal Dhakad
+2026-07-16 20:16:41,874 | INFO | Babulal Dhakad -> Payment Reconciliation (5 rows)
+2026-07-16 20:16:41,906 | INFO | Babulal Dhakad -> Exception Report (6 rows)
+2026-07-16 20:16:41,972 | INFO | Babulal Dhakad -> Monthly LAN Activity (206 rows)
+2026-07-16 20:16:42,028 | INFO | Babulal Dhakad -> Daily Activity (161 rows)
+2026-07-16 20:16:42,055 | INFO | Babulal Dhakad -> Receipt (55 rows)
+2026-07-16 20:16:42,055 | INFO | [2/30] Processing : BHARTI  CHINCHORE
+2026-07-16 20:16:42,092 | INFO | BHARTI  CHINCHORE -> Payment Reconciliation (12 rows)
+2026-07-16 20:16:42,132 | INFO | BHARTI  CHINCHORE -> Exception Report (17 rows)
+2026-07-16 20:16:42,277 | INFO | BHARTI  CHINCHORE -> Monthly LAN Activity (566 rows)
+2026-07-16 20:16:42,354 | INFO | BHARTI  CHINCHORE -> Daily Activity (276 rows)
+2026-07-16 20:16:42,415 | INFO | BHARTI  CHINCHORE -> Receipt (222 rows)
+2026-07-16 20:16:42,417 | INFO | [3/30] Processing : Rajendra  Singh
+2026-07-16 20:16:42,456 | INFO | Rajendra  Singh -> Payment Reconciliation (41 rows)
+2026-07-16 20:16:42,491 | INFO | Rajendra  Singh -> Exception Report (25 rows)
+2026-07-16 20:16:42,652 | INFO | Rajendra  Singh -> Monthly LAN Activity (775 rows)
+2026-07-16 20:16:42,818 | INFO | Rajendra  Singh -> Daily Activity (469 rows)
+2026-07-16 20:16:42,885 | INFO | Rajendra  Singh -> Receipt (261 rows)
+2026-07-16 20:16:42,886 | INFO | [4/30] Processing : Deepak Patidar
+2026-07-16 20:16:42,921 | INFO | Deepak Patidar -> Payment Reconciliation (32 rows)
+2026-07-16 20:16:43,007 | INFO | Deepak Patidar -> Exception Report (17 rows)
+2026-07-16 20:16:43,126 | INFO | Deepak Patidar -> Monthly LAN Activity (481 rows)
+2026-07-16 20:16:43,263 | INFO | Deepak Patidar -> Daily Activity (318 rows)
+2026-07-16 20:16:43,333 | INFO | Deepak Patidar -> Receipt (154 rows)
+2026-07-16 20:16:43,333 | INFO | [5/30] Processing : VIKRAM  MEWADA
+2026-07-16 20:16:43,359 | INFO | VIKRAM  MEWADA -> Payment Reconciliation (11 rows)
+2026-07-16 20:16:43,405 | INFO | VIKRAM  MEWADA -> Exception Report (10 rows)
+2026-07-16 20:16:43,487 | INFO | VIKRAM  MEWADA -> Monthly LAN Activity (231 rows)
+2026-07-16 20:16:43,538 | INFO | VIKRAM  MEWADA -> Daily Activity (122 rows)
+2026-07-16 20:16:43,570 | INFO | VIKRAM  MEWADA -> Receipt (63 rows)
+2026-07-16 20:16:43,578 | INFO | [6/30] Processing : Ratan Lal Nat
+2026-07-16 20:16:43,604 | INFO | Ratan Lal Nat -> Payment Reconciliation (17 rows)
+2026-07-16 20:16:43,641 | INFO | Ratan Lal Nat -> Exception Report (17 rows)
+2026-07-16 20:16:43,810 | INFO | Ratan Lal Nat -> Monthly LAN Activity (769 rows)
+2026-07-16 20:16:43,917 | INFO | Ratan Lal Nat -> Daily Activity (413 rows)
+2026-07-16 20:16:43,990 | INFO | Ratan Lal Nat -> Receipt (256 rows)
+2026-07-16 20:16:43,992 | INFO | [7/30] Processing : Aarti Saini
+2026-07-16 20:16:44,025 | INFO | Aarti Saini -> Payment Reconciliation (13 rows)
+2026-07-16 20:16:44,054 | INFO | Aarti Saini -> Exception Report (13 rows)
+2026-07-16 20:16:44,169 | INFO | Aarti Saini -> Monthly LAN Activity (528 rows)
+2026-07-16 20:16:44,265 | INFO | Aarti Saini -> Daily Activity (282 rows)
+2026-07-16 20:16:44,322 | INFO | Aarti Saini -> Receipt (158 rows)
+2026-07-16 20:16:44,323 | INFO | [8/30] Processing : Neeraj Kumar Bairagi
+2026-07-16 20:16:44,354 | INFO | Neeraj Kumar Bairagi -> Payment Reconciliation (2 rows)
+2026-07-16 20:16:44,386 | INFO | Neeraj Kumar Bairagi -> Exception Report (3 rows)
+2026-07-16 20:16:44,433 | INFO | Neeraj Kumar Bairagi -> Monthly LAN Activity (102 rows)
+2026-07-16 20:16:44,469 | INFO | Neeraj Kumar Bairagi -> Daily Activity (79 rows)
+2026-07-16 20:16:44,515 | INFO | Neeraj Kumar Bairagi -> Receipt (61 rows)
+2026-07-16 20:16:44,517 | INFO | [9/30] Processing : Parihar Pramendrasingh
+2026-07-16 20:16:44,540 | INFO | Parihar Pramendrasingh -> Payment Reconciliation (17 rows)
+2026-07-16 20:16:44,575 | INFO | Parihar Pramendrasingh -> Exception Report (17 rows)
+2026-07-16 20:16:44,786 | INFO | Parihar Pramendrasingh -> Monthly LAN Activity (769 rows)
+2026-07-16 20:16:44,896 | INFO | Parihar Pramendrasingh -> Daily Activity (413 rows)
+2026-07-16 20:16:44,962 | INFO | Parihar Pramendrasingh -> Receipt (256 rows)
+2026-07-16 20:16:44,963 | INFO | [10/30] Processing : Purav Shah
+2026-07-16 20:16:45,005 | INFO | Purav Shah -> Payment Reconciliation (109 rows)
+2026-07-16 20:16:45,053 | INFO | Purav Shah -> Exception Report (112 rows)
+2026-07-16 20:16:45,820 | INFO | Purav Shah -> Monthly LAN Activity (3673 rows)
+2026-07-16 20:16:46,305 | INFO | Purav Shah -> Daily Activity (2129 rows)
+2026-07-16 20:16:46,505 | INFO | Purav Shah -> Receipt (1159 rows)
+2026-07-16 20:16:46,505 | INFO | [11/30] Processing : Manjeet Singh
+2026-07-16 20:16:46,539 | INFO | Manjeet Singh -> Payment Reconciliation (1 rows)
+2026-07-16 20:16:46,568 | INFO | Manjeet Singh -> Exception Report (12 rows)
+2026-07-16 20:16:46,642 | INFO | Manjeet Singh -> Monthly LAN Activity (226 rows)
+2026-07-16 20:16:46,693 | INFO | Manjeet Singh -> Daily Activity (110 rows)
+2026-07-16 20:16:46,736 | INFO | Manjeet Singh -> Receipt (65 rows)
+2026-07-16 20:16:46,736 | INFO | [12/30] Processing : PAVAN RAO SHINDE
+2026-07-16 20:16:46,767 | INFO | PAVAN RAO SHINDE -> Payment Reconciliation (33 rows)
+2026-07-16 20:16:46,801 | INFO | PAVAN RAO SHINDE -> Exception Report (35 rows)
+2026-07-16 20:16:47,041 | INFO | PAVAN RAO SHINDE -> Monthly LAN Activity (1110 rows)
+2026-07-16 20:16:47,198 | INFO | PAVAN RAO SHINDE -> Daily Activity (739 rows)
+2026-07-16 20:16:47,311 | INFO | PAVAN RAO SHINDE -> Receipt (321 rows)
+2026-07-16 20:16:47,311 | INFO | [13/30] Processing : ANKIT KUMAR SONI
+2026-07-16 20:16:47,350 | INFO | ANKIT KUMAR SONI -> Payment Reconciliation (41 rows)
+2026-07-16 20:16:47,384 | INFO | ANKIT KUMAR SONI -> Exception Report (42 rows)
+2026-07-16 20:16:47,661 | INFO | ANKIT KUMAR SONI -> Monthly LAN Activity (1344 rows)
+2026-07-16 20:16:47,853 | INFO | ANKIT KUMAR SONI -> Daily Activity (816 rows)
+2026-07-16 20:16:47,941 | INFO | ANKIT KUMAR SONI -> Receipt (372 rows)
+2026-07-16 20:16:47,941 | INFO | [14/30] Processing : Suresh  Gehlot
+2026-07-16 20:16:47,967 | INFO | Suresh  Gehlot -> Payment Reconciliation (32 rows)
+2026-07-16 20:16:48,012 | INFO | Suresh  Gehlot -> Exception Report (17 rows)
+2026-07-16 20:16:48,130 | INFO | Suresh  Gehlot -> Monthly LAN Activity (481 rows)
+2026-07-16 20:16:48,232 | INFO | Suresh  Gehlot -> Daily Activity (318 rows)
+2026-07-16 20:16:48,283 | INFO | Suresh  Gehlot -> Receipt (154 rows)
+2026-07-16 20:16:48,283 | INFO | [15/30] Processing : Kamalesh Kumar
+2026-07-16 20:16:48,330 | INFO | Kamalesh Kumar -> Payment Reconciliation (109 rows)
+2026-07-16 20:16:48,380 | INFO | Kamalesh Kumar -> Exception Report (112 rows)
+2026-07-16 20:16:49,140 | INFO | Kamalesh Kumar -> Monthly LAN Activity (3673 rows)
+2026-07-16 20:16:49,577 | INFO | Kamalesh Kumar -> Daily Activity (2129 rows)
+2026-07-16 20:16:49,816 | INFO | Kamalesh Kumar -> Receipt (1159 rows)
+2026-07-16 20:16:49,816 | INFO | [16/30] Processing : Vijay Singh Gahlot
+2026-07-16 20:16:49,832 | INFO | Vijay Singh Gahlot -> Payment Reconciliation (1 rows)
+2026-07-16 20:16:49,875 | INFO | Vijay Singh Gahlot -> Exception Report (12 rows)
+2026-07-16 20:16:49,947 | INFO | Vijay Singh Gahlot -> Monthly LAN Activity (226 rows)
+2026-07-16 20:16:50,001 | INFO | Vijay Singh Gahlot -> Daily Activity (110 rows)
+2026-07-16 20:16:50,040 | INFO | Vijay Singh Gahlot -> Receipt (65 rows)
+2026-07-16 20:16:50,040 | INFO | [17/30] Processing : Pushkar Patidar
+2026-07-16 20:16:50,068 | INFO | Pushkar Patidar -> Payment Reconciliation (6 rows)
+2026-07-16 20:16:50,102 | INFO | Pushkar Patidar -> Exception Report (8 rows)
+2026-07-16 20:16:50,198 | INFO | Pushkar Patidar -> Monthly LAN Activity (336 rows)
+2026-07-16 20:16:50,265 | INFO | Pushkar Patidar -> Daily Activity (210 rows)
+2026-07-16 20:16:50,302 | INFO | Pushkar Patidar -> Receipt (112 rows)
+2026-07-16 20:16:50,312 | INFO | [18/30] Processing : Dinesh jain
+2026-07-16 20:16:50,334 | INFO | Dinesh jain -> Payment Reconciliation (17 rows)
+2026-07-16 20:16:50,373 | INFO | Dinesh jain -> Exception Report (17 rows)
+2026-07-16 20:16:50,547 | INFO | Dinesh jain -> Monthly LAN Activity (769 rows)
+2026-07-16 20:16:50,662 | INFO | Dinesh jain -> Daily Activity (413 rows)
+2026-07-16 20:16:50,733 | INFO | Dinesh jain -> Receipt (256 rows)
+2026-07-16 20:16:50,734 | INFO | [19/30] Processing : Aayush
+2026-07-16 20:16:50,790 | INFO | Aayush -> Payment Reconciliation (109 rows)
+2026-07-16 20:16:50,856 | INFO | Aayush -> Exception Report (112 rows)
+2026-07-16 20:16:51,612 | INFO | Aayush -> Monthly LAN Activity (3673 rows)
+2026-07-16 20:16:52,038 | INFO | Aayush -> Daily Activity (2129 rows)
+2026-07-16 20:16:52,231 | INFO | Aayush -> Receipt (1159 rows)
+2026-07-16 20:16:52,231 | INFO | [20/30] Processing : SHIVRAJ SINGH RAJPUT
+2026-07-16 20:16:52,263 | INFO | SHIVRAJ SINGH RAJPUT -> Payment Reconciliation (8 rows)
+2026-07-16 20:16:52,284 | INFO | SHIVRAJ SINGH RAJPUT -> Exception Report (10 rows)
+2026-07-16 20:16:52,427 | INFO | SHIVRAJ SINGH RAJPUT -> Monthly LAN Activity (330 rows)
+2026-07-16 20:16:52,522 | INFO | SHIVRAJ SINGH RAJPUT -> Daily Activity (291 rows)
+2026-07-16 20:16:52,562 | INFO | SHIVRAJ SINGH RAJPUT -> Receipt (74 rows)
+2026-07-16 20:16:52,562 | INFO | [21/30] Processing : Ankit Yadav V
+2026-07-16 20:16:52,604 | INFO | Ankit Yadav V -> Payment Reconciliation (91 rows)
+2026-07-16 20:16:52,660 | INFO | Ankit Yadav V -> Exception Report (83 rows)
+2026-07-16 20:16:53,212 | INFO | Ankit Yadav V -> Monthly LAN Activity (2678 rows)
+2026-07-16 20:16:53,575 | INFO | Ankit Yadav V -> Daily Activity (1606 rows)
+2026-07-16 20:16:53,741 | INFO | Ankit Yadav V -> Receipt (838 rows)
+2026-07-16 20:16:53,741 | INFO | [22/30] Processing : Amit Korgaonkar
+2026-07-16 20:16:53,794 | INFO | Amit Korgaonkar -> Payment Reconciliation (109 rows)
+2026-07-16 20:16:53,842 | INFO | Amit Korgaonkar -> Exception Report (112 rows)
+2026-07-16 20:16:54,537 | INFO | Amit Korgaonkar -> Monthly LAN Activity (3673 rows)
+2026-07-16 20:16:55,012 | INFO | Amit Korgaonkar -> Daily Activity (2129 rows)
+2026-07-16 20:16:55,215 | INFO | Amit Korgaonkar -> Receipt (1159 rows)
+2026-07-16 20:16:55,215 | INFO | [23/30] Processing : SHAHBAZ KAZI
+2026-07-16 20:16:55,250 | INFO | SHAHBAZ KAZI -> Payment Reconciliation (3 rows)
+2026-07-16 20:16:55,277 | INFO | SHAHBAZ KAZI -> Exception Report (8 rows)
+2026-07-16 20:16:55,351 | INFO | SHAHBAZ KAZI -> Monthly LAN Activity (223 rows)
+2026-07-16 20:16:55,395 | INFO | SHAHBAZ KAZI -> Daily Activity (111 rows)
+2026-07-16 20:16:55,444 | INFO | SHAHBAZ KAZI -> Receipt (93 rows)
+2026-07-16 20:16:55,445 | INFO | [24/30] Processing : RAJESH  GEHLOT
+2026-07-16 20:16:55,477 | INFO | RAJESH  GEHLOT -> Payment Reconciliation (8 rows)
+2026-07-16 20:16:55,513 | INFO | RAJESH  GEHLOT -> Exception Report (7 rows)
+2026-07-16 20:16:55,587 | INFO | RAJESH  GEHLOT -> Monthly LAN Activity (234 rows)
+2026-07-16 20:16:55,629 | INFO | RAJESH  GEHLOT -> Daily Activity (77 rows)
+2026-07-16 20:16:55,661 | INFO | RAJESH  GEHLOT -> Receipt (51 rows)
+2026-07-16 20:16:55,661 | INFO | [25/30] Processing : Mukesh Rathod
+2026-07-16 20:16:55,705 | INFO | Mukesh Rathod -> Payment Reconciliation (6 rows)
+2026-07-16 20:16:55,739 | INFO | Mukesh Rathod -> Exception Report (6 rows)
+2026-07-16 20:16:55,823 | INFO | Mukesh Rathod -> Monthly LAN Activity (272 rows)
+2026-07-16 20:16:55,889 | INFO | Mukesh Rathod -> Daily Activity (158 rows)
+2026-07-16 20:16:55,926 | INFO | Mukesh Rathod -> Receipt (90 rows)
+2026-07-16 20:16:55,926 | INFO | [26/30] Processing : Raj  Rathore
+2026-07-16 20:16:56,028 | INFO | Raj  Rathore -> Payment Reconciliation (34 rows)
+2026-07-16 20:16:56,076 | INFO | Raj  Rathore -> Exception Report (20 rows)
+2026-07-16 20:16:56,225 | INFO | Raj  Rathore -> Monthly LAN Activity (583 rows)
+2026-07-16 20:16:56,379 | INFO | Raj  Rathore -> Daily Activity (397 rows)
+2026-07-16 20:16:56,441 | INFO | Raj  Rathore -> Receipt (215 rows)
+2026-07-16 20:16:56,442 | INFO | [27/30] Processing : Sunil  chawala
+2026-07-16 20:16:56,463 | INFO | Sunil  chawala -> Payment Reconciliation (7 rows)
+2026-07-16 20:16:56,500 | INFO | Sunil  chawala -> Exception Report (5 rows)
+2026-07-16 20:16:56,558 | INFO | Sunil  chawala -> Monthly LAN Activity (192 rows)
+2026-07-16 20:16:56,637 | INFO | Sunil  chawala -> Daily Activity (72 rows)
+2026-07-16 20:16:56,685 | INFO | Sunil  chawala -> Receipt (46 rows)
+2026-07-16 20:16:56,685 | INFO | [28/30] Processing : Sandeep Carpenter
+2026-07-16 20:16:56,724 | INFO | Sandeep Carpenter -> Payment Reconciliation (8 rows)
+2026-07-16 20:16:56,760 | INFO | Sandeep Carpenter -> Exception Report (10 rows)
+2026-07-16 20:16:56,857 | INFO | Sandeep Carpenter -> Monthly LAN Activity (330 rows)
+2026-07-16 20:16:56,957 | INFO | Sandeep Carpenter -> Daily Activity (291 rows)
+2026-07-16 20:16:56,999 | INFO | Sandeep Carpenter -> Receipt (74 rows)
+2026-07-16 20:16:57,001 | INFO | [29/30] Processing : Sanjay Chopra
+2026-07-16 20:16:57,034 | INFO | Sanjay Chopra -> Payment Reconciliation (1 rows)
+2026-07-16 20:16:57,063 | INFO | Sanjay Chopra -> Exception Report (12 rows)
+2026-07-16 20:16:57,147 | INFO | Sanjay Chopra -> Monthly LAN Activity (226 rows)
+2026-07-16 20:16:57,197 | INFO | Sanjay Chopra -> Daily Activity (110 rows)
+2026-07-16 20:16:57,224 | INFO | Sanjay Chopra -> Receipt (65 rows)
+2026-07-16 20:16:57,224 | INFO | [30/30] Processing : Prabhu Mudliyar
+2026-07-16 20:16:57,274 | INFO | Prabhu Mudliyar -> Payment Reconciliation (109 rows)
+2026-07-16 20:16:57,323 | INFO | Prabhu Mudliyar -> Exception Report (112 rows)
+2026-07-16 20:16:58,089 | INFO | Prabhu Mudliyar -> Monthly LAN Activity (3673 rows)
+2026-07-16 20:16:58,541 | INFO | Prabhu Mudliyar -> Daily Activity (2129 rows)
+2026-07-16 20:16:58,753 | INFO | Prabhu Mudliyar -> Receipt (1159 rows)
+2026-07-16 20:16:58,753 | INFO | ======================================================================
+2026-07-16 20:16:58,753 | INFO | REPORT GENERATION COMPLETED
+2026-07-16 20:16:58,757 | INFO | Users Processed : 30
+2026-07-16 20:16:58,757 | INFO | Reports Created : 150
+2026-07-16 20:16:58,757 | INFO | ======================================================================
+2026-07-16 20:16:58,757 | INFO | Report generation completed successfully.
+2026-07-16 20:16:58,757 | INFO | STEP 5/5 : Sending Emails
+2026-07-16 20:16:58,757 | INFO | ======================================================================
+2026-07-16 20:16:58,757 | INFO | EMAIL SERVICE STARTED
+2026-07-16 20:16:58,757 | INFO | ======================================================================
+2026-07-16 20:17:00,185 | INFO | SMTP Login Successful
+2026-07-16 20:17:00,185 | INFO | Total Users : 30
+2026-07-16 20:17:00,185 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:00,185 | INFO | Processing : Babulal Dhakad
+2026-07-16 20:17:00,185 | INFO | Babulal Dhakad : 5 Reports | 0.06 MB
+2026-07-16 20:17:01,353 | INFO | Babulal Dhakad : Email Sent
+2026-07-16 20:17:01,364 | INFO | Babulal Dhakad : Temporary Folder Deleted
+2026-07-16 20:17:01,364 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:01,364 | INFO | Processing : BHARTI  CHINCHORE
+2026-07-16 20:17:01,364 | INFO | BHARTI  CHINCHORE : 5 Reports | 0.11 MB
+2026-07-16 20:17:02,332 | INFO | BHARTI  CHINCHORE : Email Sent
+2026-07-16 20:17:02,332 | INFO | BHARTI  CHINCHORE : Temporary Folder Deleted
+2026-07-16 20:17:02,332 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:02,334 | INFO | Processing : Rajendra  Singh
+2026-07-16 20:17:02,335 | INFO | Rajendra  Singh : 5 Reports | 0.15 MB
+2026-07-16 20:17:03,487 | INFO | Rajendra  Singh : Email Sent
+2026-07-16 20:17:03,501 | INFO | Rajendra  Singh : Temporary Folder Deleted
+2026-07-16 20:17:03,501 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:03,501 | INFO | Processing : Deepak Patidar
+2026-07-16 20:17:03,501 | INFO | Deepak Patidar : 5 Reports | 0.11 MB
+2026-07-16 20:17:04,267 | INFO | Deepak Patidar : Email Sent
+2026-07-16 20:17:04,282 | INFO | Deepak Patidar : Temporary Folder Deleted
+2026-07-16 20:17:04,283 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:04,283 | INFO | Processing : VIKRAM  MEWADA
+2026-07-16 20:17:04,283 | INFO | VIKRAM  MEWADA : 5 Reports | 0.06 MB
+2026-07-16 20:17:04,950 | INFO | VIKRAM  MEWADA : Email Sent
+2026-07-16 20:17:04,966 | INFO | VIKRAM  MEWADA : Temporary Folder Deleted
+2026-07-16 20:17:04,966 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:04,966 | INFO | Processing : Ratan Lal Nat
+2026-07-16 20:17:04,966 | INFO | Ratan Lal Nat : 5 Reports | 0.14 MB
+2026-07-16 20:17:06,065 | INFO | Ratan Lal Nat : Email Sent
+2026-07-16 20:17:06,070 | INFO | Ratan Lal Nat : Temporary Folder Deleted
+2026-07-16 20:17:06,070 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:06,070 | INFO | Processing : Aarti Saini
+2026-07-16 20:17:06,070 | INFO | Aarti Saini : 5 Reports | 0.11 MB
+2026-07-16 20:17:06,947 | INFO | Aarti Saini : Email Sent
+2026-07-16 20:17:06,959 | INFO | Aarti Saini : Temporary Folder Deleted
+2026-07-16 20:17:06,961 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:06,961 | INFO | Processing : Neeraj Kumar Bairagi
+2026-07-16 20:17:06,961 | INFO | Neeraj Kumar Bairagi : 5 Reports | 0.05 MB
+2026-07-16 20:17:07,564 | INFO | Neeraj Kumar Bairagi : Email Sent
+2026-07-16 20:17:07,574 | INFO | Neeraj Kumar Bairagi : Temporary Folder Deleted
+2026-07-16 20:17:07,576 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:07,576 | INFO | Processing : Parihar Pramendrasingh
+2026-07-16 20:17:07,576 | INFO | Parihar Pramendrasingh : 5 Reports | 0.14 MB
+2026-07-16 20:17:08,429 | INFO | Parihar Pramendrasingh : Email Sent
+2026-07-16 20:17:08,441 | INFO | Parihar Pramendrasingh : Temporary Folder Deleted
+2026-07-16 20:17:08,442 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:08,442 | INFO | Processing : Purav Shah
+2026-07-16 20:17:08,442 | INFO | Purav Shah : 5 Reports | 0.6 MB
+2026-07-16 20:17:10,587 | INFO | Purav Shah : Email Sent
+2026-07-16 20:17:10,591 | INFO | Purav Shah : Temporary Folder Deleted
+2026-07-16 20:17:10,591 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:10,591 | INFO | Processing : Manjeet Singh
+2026-07-16 20:17:10,591 | INFO | Manjeet Singh : 5 Reports | 0.06 MB
+2026-07-16 20:17:11,177 | INFO | Manjeet Singh : Email Sent
+2026-07-16 20:17:11,177 | INFO | Manjeet Singh : Temporary Folder Deleted
+2026-07-16 20:17:11,177 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:11,177 | INFO | Processing : PAVAN RAO SHINDE
+2026-07-16 20:17:11,177 | INFO | PAVAN RAO SHINDE : 5 Reports | 0.21 MB
+2026-07-16 20:17:12,463 | INFO | PAVAN RAO SHINDE : Email Sent
+2026-07-16 20:17:12,463 | INFO | PAVAN RAO SHINDE : Temporary Folder Deleted
+2026-07-16 20:17:12,469 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:12,469 | INFO | Processing : ANKIT KUMAR SONI
+2026-07-16 20:17:12,469 | INFO | ANKIT KUMAR SONI : 5 Reports | 0.24 MB
+2026-07-16 20:17:13,541 | INFO | ANKIT KUMAR SONI : Email Sent
+2026-07-16 20:17:13,547 | INFO | ANKIT KUMAR SONI : Temporary Folder Deleted
+2026-07-16 20:17:13,547 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:13,547 | INFO | Processing : Suresh  Gehlot
+2026-07-16 20:17:13,547 | INFO | Suresh  Gehlot : 5 Reports | 0.11 MB
+2026-07-16 20:17:14,258 | INFO | Suresh  Gehlot : Email Sent
+2026-07-16 20:17:14,258 | INFO | Suresh  Gehlot : Temporary Folder Deleted
+2026-07-16 20:17:14,258 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:14,258 | INFO | Processing : Kamalesh Kumar
+2026-07-16 20:17:14,258 | INFO | Kamalesh Kumar : 5 Reports | 0.6 MB
+2026-07-16 20:17:17,429 | INFO | Kamalesh Kumar : Email Sent
+2026-07-16 20:17:17,435 | INFO | Kamalesh Kumar : Temporary Folder Deleted
+2026-07-16 20:17:17,435 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:17,435 | INFO | Processing : Vijay Singh Gahlot
+2026-07-16 20:17:17,435 | INFO | Vijay Singh Gahlot : 5 Reports | 0.06 MB
+2026-07-16 20:17:18,053 | INFO | Vijay Singh Gahlot : Email Sent
+2026-07-16 20:17:18,053 | INFO | Vijay Singh Gahlot : Temporary Folder Deleted
+2026-07-16 20:17:18,053 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:18,053 | INFO | Processing : Pushkar Patidar
+2026-07-16 20:17:18,053 | INFO | Pushkar Patidar : 5 Reports | 0.08 MB
+2026-07-16 20:17:18,727 | INFO | Pushkar Patidar : Email Sent
+2026-07-16 20:17:18,727 | INFO | Pushkar Patidar : Temporary Folder Deleted
+2026-07-16 20:17:18,727 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:18,727 | INFO | Processing : Dinesh jain
+2026-07-16 20:17:18,727 | INFO | Dinesh jain : 5 Reports | 0.14 MB
+2026-07-16 20:17:19,628 | INFO | Dinesh jain : Email Sent
+2026-07-16 20:17:19,631 | INFO | Dinesh jain : Temporary Folder Deleted
+2026-07-16 20:17:19,632 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:19,633 | INFO | Processing : Aayush
+2026-07-16 20:17:19,633 | INFO | Aayush : 5 Reports | 0.6 MB
+2026-07-16 20:17:21,653 | INFO | Aayush : Email Sent
+2026-07-16 20:17:21,653 | INFO | Aayush : Temporary Folder Deleted
+2026-07-16 20:17:21,655 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:21,655 | INFO | Processing : SHIVRAJ SINGH RAJPUT
+2026-07-16 20:17:21,655 | INFO | SHIVRAJ SINGH RAJPUT : 5 Reports | 0.09 MB
+2026-07-16 20:17:22,545 | INFO | SHIVRAJ SINGH RAJPUT : Email Sent
+2026-07-16 20:17:22,546 | INFO | SHIVRAJ SINGH RAJPUT : Temporary Folder Deleted
+2026-07-16 20:17:22,547 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:22,547 | INFO | Processing : Ankit Yadav V
+2026-07-16 20:17:22,548 | INFO | Ankit Yadav V : 5 Reports | 0.45 MB
+2026-07-16 20:17:24,416 | INFO | Ankit Yadav V : Email Sent
+2026-07-16 20:17:24,421 | INFO | Ankit Yadav V : Temporary Folder Deleted
+2026-07-16 20:17:24,421 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:24,421 | INFO | Processing : Amit Korgaonkar
+2026-07-16 20:17:24,421 | INFO | Amit Korgaonkar : 5 Reports | 0.6 MB
+2026-07-16 20:17:26,578 | INFO | Amit Korgaonkar : Email Sent
+2026-07-16 20:17:26,578 | INFO | Amit Korgaonkar : Temporary Folder Deleted
+2026-07-16 20:17:26,578 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:26,578 | INFO | Processing : SHAHBAZ KAZI
+2026-07-16 20:17:26,578 | INFO | SHAHBAZ KAZI : 5 Reports | 0.06 MB
+2026-07-16 20:17:27,188 | INFO | SHAHBAZ KAZI : Email Sent
+2026-07-16 20:17:27,198 | INFO | SHAHBAZ KAZI : Temporary Folder Deleted
+2026-07-16 20:17:27,198 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:27,198 | INFO | Processing : RAJESH  GEHLOT
+2026-07-16 20:17:27,200 | INFO | RAJESH  GEHLOT : 5 Reports | 0.06 MB
+2026-07-16 20:17:27,860 | INFO | RAJESH  GEHLOT : Email Sent
+2026-07-16 20:17:27,860 | INFO | RAJESH  GEHLOT : Temporary Folder Deleted
+2026-07-16 20:17:27,860 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:27,860 | INFO | Processing : Mukesh Rathod
+2026-07-16 20:17:27,860 | INFO | Mukesh Rathod : 5 Reports | 0.07 MB
+2026-07-16 20:17:28,640 | INFO | Mukesh Rathod : Email Sent
+2026-07-16 20:17:28,640 | INFO | Mukesh Rathod : Temporary Folder Deleted
+2026-07-16 20:17:28,640 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:28,640 | INFO | Processing : Raj  Rathore
+2026-07-16 20:17:28,640 | INFO | Raj  Rathore : 5 Reports | 0.13 MB
+2026-07-16 20:17:29,606 | INFO | Raj  Rathore : Email Sent
+2026-07-16 20:17:29,606 | INFO | Raj  Rathore : Temporary Folder Deleted
+2026-07-16 20:17:29,606 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:29,606 | INFO | Processing : Sunil  chawala
+2026-07-16 20:17:29,606 | INFO | Sunil  chawala : 5 Reports | 0.05 MB
+2026-07-16 20:17:30,217 | INFO | Sunil  chawala : Email Sent
+2026-07-16 20:17:30,231 | INFO | Sunil  chawala : Temporary Folder Deleted
+2026-07-16 20:17:30,232 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:30,232 | INFO | Processing : Sandeep Carpenter
+2026-07-16 20:17:30,232 | INFO | Sandeep Carpenter : 5 Reports | 0.09 MB
+2026-07-16 20:17:30,908 | INFO | Sandeep Carpenter : Email Sent
+2026-07-16 20:17:30,924 | INFO | Sandeep Carpenter : Temporary Folder Deleted
+2026-07-16 20:17:30,924 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:30,924 | INFO | Processing : Sanjay Chopra
+2026-07-16 20:17:30,924 | INFO | Sanjay Chopra : 5 Reports | 0.06 MB
+2026-07-16 20:17:31,734 | INFO | Sanjay Chopra : Email Sent
+2026-07-16 20:17:31,734 | INFO | Sanjay Chopra : Temporary Folder Deleted
+2026-07-16 20:17:31,734 | INFO | ------------------------------------------------------------
+2026-07-16 20:17:31,734 | INFO | Processing : Prabhu Mudliyar
+2026-07-16 20:17:31,734 | INFO | Prabhu Mudliyar : 5 Reports | 0.6 MB
+2026-07-16 20:17:33,898 | INFO | Prabhu Mudliyar : Email Sent
+2026-07-16 20:17:33,910 | INFO | Prabhu Mudliyar : Temporary Folder Deleted
+2026-07-16 20:17:33,910 | INFO | SMTP Connection Closed
+2026-07-16 20:17:33,944 | INFO | Summary Saved : logs\2026-07-16\email_summary.xlsx
+2026-07-16 20:17:33,944 | INFO | ============================================================
+2026-07-16 20:17:33,944 | INFO | Total Users : 30
+2026-07-16 20:17:33,944 | INFO | Success    : 30
+2026-07-16 20:17:33,944 | INFO | Failed     : 0
+2026-07-16 20:17:33,944 | INFO | Skipped    : 0
+2026-07-16 20:17:33,944 | INFO | ============================================================
+2026-07-16 20:17:33,944 | INFO | Summary File : logs\2026-07-16\email_summary.xlsx
+2026-07-16 20:17:33,944 | INFO | ======================================================================
+2026-07-16 20:17:33,944 | INFO | EMAIL SERVICE COMPLETED
+2026-07-16 20:17:33,944 | INFO | Emails Sent     : 30
+2026-07-16 20:17:33,944 | INFO | Emails Failed   : 0
+2026-07-16 20:17:33,944 | INFO | Users Skipped   : 0
+2026-07-16 20:17:33,944 | INFO | ======================================================================
+2026-07-16 20:17:33,944 | INFO | All emails processed.
+2026-07-16 20:17:33,944 | INFO | COLLECTION AUTOMATION COMPLETED SUCCESSFULLY
+2026-07-16 20:17:33,944 | INFO | ================================================================================
+2026-07-16 20:17:33,944 | INFO | Execution Time : 61.86 Seconds
+2026-07-16 20:17:33,944 | INFO | COLLECTION AUTOMATION FINISHED
+2026-07-16 20:17:33,944 | INFO | ================================================================================
